@@ -1,0 +1,34 @@
+[
+    {
+        "id": "a77a3ed6-6fa2-4430-93af-7df5c7c519ec",
+        "title": "Makan Siang",
+        "nominal": 10000,
+        "type": "expense",
+        "category": "food",
+        "date": "10 Juli 2025"
+    },
+    {
+        "id": "3084c9aa-20e9-4188-bf8a-85119f7846d9",
+        "title": "Gajian Bulanan",
+        "nominal": 5000000,
+        "type": "income",
+        "category": "salary",
+        "date": "1 Juli 2025"
+    },
+    {
+        "id": "809ab3ed-0633-4cfb-a399-91b05e2ca201",
+        "title": "Bayar bensin",
+        "nominal": 20000,
+        "type": "expense",
+        "category": "food",
+        "date": "16 Juli 2025"
+    },
+    {
+        "id": "53ac9032-1485-409d-b0f4-6f61da6b0cbc",
+        "date": "11 Juli 2025",
+        "title": "Makan Sore",
+        "nominal": 20000,
+        "type": "expense",
+        "category": "food"
+    }
+]
