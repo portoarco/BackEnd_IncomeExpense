@@ -4,7 +4,7 @@ import { getData } from "../controllers/data.controller.ts";
 
 const route = Router();
 
-route.get("/all",getData);
+route.get("/",getData);
 
 
 export default route;
