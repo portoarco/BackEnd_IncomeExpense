@@ -15,7 +15,7 @@ app.get("/",(request:Request,response:Response)=>{
     response.send("<h1>This is Income Expense Landing Page</h1>")
 })
 
-// Router
+// Router to Data
 app.use("/data",dataRouter)
 
 // Listening Port Config

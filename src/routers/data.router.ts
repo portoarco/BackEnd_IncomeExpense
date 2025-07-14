@@ -4,6 +4,8 @@ import { getData } from "../controllers/data.controller.ts";
 
 const route = Router();
 
+
+// getAllData
 route.get("/",getData);
 
 
