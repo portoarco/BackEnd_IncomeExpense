@@ -29,5 +29,12 @@
         "nominal": 20000,
         "type": "expense",
         "category": "food"
+    },
+    {
+        "id": "9cea8a3b-774e-467c-8947-0140d43a3939",
+        "title": "Makan Sore",
+        "nominal": 20000,
+        "type": "expense",
+        "category": "food"
     }
 ]

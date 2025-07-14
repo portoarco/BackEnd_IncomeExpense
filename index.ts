@@ -13,7 +13,7 @@ app.use(express.json());
 
 
 // Router
-app.use("/data",dataRouter)
+app.use("/",dataRouter)
 
 
 // Landing Page

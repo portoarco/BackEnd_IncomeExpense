@@ -5,13 +5,14 @@ const route = Router();
 
 
 // router getAllData
-route.get("/all",getAllData);
-// router getTotalExpensebyDateRange
-route.get("/expense/totalbyDateRange",getTEbyDate)
+route.get("/data",getAllData);
 // router createData
-route.post("/all",createData)
+route.post("/data",createData)
 // router getExpenseData
 route.get("/expense",getExpenseData)
+// router getTotalExpensebyDateRange
+route.get("/expense/totalbyDateRange",getTEbyDate)
+
 // router getExpenseDatabyId (Expense Detail)
 route.get("/expense/:id",getExpenseDatabyId)
 // router editExpensebyId 
