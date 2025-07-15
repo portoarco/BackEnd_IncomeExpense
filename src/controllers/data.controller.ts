@@ -14,7 +14,6 @@ export const getData = async (req: Request, res: Response) => {
 };
 
 // Create Data
-
 export const createData = async (req: Request, res: Response) => {
   try {
     const { title, type, category, nominal } = req.body;
@@ -70,3 +69,13 @@ export const deleteDatabyId = async (req: Request, res: Response) => {
     res.status(500).send(error);
   }
 };
+
+// Filter Data by Category  
+export const sumFilterbyCategory = async(req:Request,res:Response) => {
+  try{
+
+  } catch(error){
+    console.log(error);
+    res.status(500).send(error)
+  }
+}
