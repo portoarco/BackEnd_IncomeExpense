@@ -1,7 +1,9 @@
+import dotenv from "dotenv";
+dotenv.config()
 import express, { Application,Request,Response } from "express";
 import dataRouter from "./src/routers/data.router"
 
-const PORT:number = 6000;
+const PORT:string = process.env.PORT || "6600";
 
 // Define API Config
 const app:Application = express();

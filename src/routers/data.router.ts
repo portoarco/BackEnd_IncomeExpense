@@ -1,17 +1,23 @@
 import { Router } from "express";
-import { createData, deleteDatabyId, getData, updateDatabyId } from "../controllers/data.controller";
+import {
+  addData,
+  deleteData,
+  getByCategory,
+  getData,
+  updateData,
+} from "../controllers/data.controller";
 
 const route = Router();
 
-
 // getAllData
-route.get("/",getData);
-// createNewData
-route.post("/",createData)
-// updateData
-route.put("/:id",updateDatabyId)
-// deleteData
-route.delete("/:id",deleteDatabyId)
-
+route.get("/", getData);
+// addData
+route.post("/", addData);
+// update data
+route.patch("/:id", updateData);
+// delete Data
+route.delete("/:id", deleteData);
+// getByCategoryId
+route.get("/by-category/:categoryid", getByCategory);
 
 export default route;
